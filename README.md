@@ -1,25 +1,58 @@
-# Customizing Columns using Templates and Adding a Custom Toolbar in React Gantt Chart 
+# React Gantt Chart with Custom Column Templates and Toolbar
 
-A quick-start project that helps you to customize the column header and data in the Gantt Chart using templates. This project also contains a code snippet to add a custom toolbar button in the Gantt Chart. 
+A React sample repository demonstrating `@syncfusion/ej2-react-gantt` with custom resource templates, header templates, and custom toolbar actions.
 
-Documentation: 
+## Repository description
+This repository contains a Create React App example rendering a Gantt chart with custom resource display and toolbar-driven filtering.
 
-Column Template: https://ej2.syncfusion.com/react/documentation/gantt/columns/#column-template
+## Features
 
-Header Template: https://ej2.syncfusion.com/react/documentation/gantt/columns/#custom-column-header
+- Custom `Resources` column template
+- Custom `Resources` header template
+- Built-in toolbar buttons: `CollapseAll`, `ExpandAll`
+- Custom toolbar buttons: `Filter`, `Clear Filter`
+- Programmatic filtering via toolbar events
+- Nested tasks, dependencies, and resources
 
-Toolbar Template: https://ej2.syncfusion.com/react/documentation/gantt/tool-bar/#built-in-and-custom-items-in-toolbar
+## What it demonstrates
 
-Online examples:
+- `GanttComponent` with `taskFields` mapping
+- `ColumnsDirective` and `ColumnDirective` customization
+- Custom column `template` and `headerTemplate`
+- Toolbar click handling
+- Resource mapping via `resourceDetails`
 
-Column Template: https://ej2.syncfusion.com/react/demos/#/material/gantt/column-template
+## Getting Started
 
-Header Template: https://ej2.syncfusion.com/react/demos/#/material/gantt/header-template
+### Prerequisites
 
-Toolbar Template: https://ej2.syncfusion.com/react/demos/#/material/gantt/toolbar-template
+- Node.js
+- npm
 
-## Project prerequisites
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+### Install
 
-### How to run this application?
-To run this application, you need to clone the `customizing-columns-using-templates-and-adding-a-custom-toolbar-in-react-gantt-chart` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the npm install command and run your project using the npm start command.
+```bash
+npm install
+```
+
+### Run
+
+```bash
+npm start
+```
+
+Open `http://localhost:3000`.
+
+## Notes
+
+- Uses React 17 and Create React App
+- Loads resource images from Syncfusion demo CDN
+- Filter button limits resources starting with `M`
+- Clear Filter removes active filtering
+
+## Available Scripts
+
+- `npm start`
+- `npm run build`
+- `npm test`
+- `npm run eject`
