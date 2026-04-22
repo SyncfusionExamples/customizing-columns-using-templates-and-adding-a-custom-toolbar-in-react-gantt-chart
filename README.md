@@ -1,32 +1,28 @@
 # React Gantt Chart with Custom Column Templates and Toolbar
 
-A React sample repository demonstrating `@syncfusion/ej2-react-gantt` with custom resource templates, header templates, and custom toolbar actions.
+A React sample repository demonstrating the Syncfusion React Gantt Chart component with custom column templates, resource rendering, and toolbar-based interactions.
 
 ## Repository description
-This repository contains a Create React App example rendering a Gantt chart with custom resource display and toolbar-driven filtering.
+This repository provides a React example that showcases a Syncfusion Gantt Chart configured with custom resource column templates, header templates, and toolbar actions for controlling filtering and task presentation.
+
+## Project Overview
+
+The sample focuses on extending the default Gantt chart behavior by customizing how resource information is displayed within columns and by handling toolbar actions programmatically. It highlights how template support and toolbar events can be used together to control filtering and task visibility in a structured project timeline.
 
 ## Features
 
 - Custom `Resources` column template
 - Custom `Resources` header template
-- Built-in toolbar buttons: `CollapseAll`, `ExpandAll`
-- Custom toolbar buttons: `Filter`, `Clear Filter`
-- Programmatic filtering via toolbar events
-- Nested tasks, dependencies, and resources
-
-## What it demonstrates
-
-- `GanttComponent` with `taskFields` mapping
-- `ColumnsDirective` and `ColumnDirective` customization
-- Custom column `template` and `headerTemplate`
-- Toolbar click handling
-- Resource mapping via `resourceDetails`
+- Built-in toolbar actions such as `CollapseAll` and `ExpandAll`
+- Custom toolbar actions for filtering and clearing filters
+- Programmatic filtering triggered through toolbar events
+- Support for nested tasks, dependencies, and resource assignment
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js
+- Node.js (LTS or later)
 - npm
 
 ### Install
@@ -45,14 +41,7 @@ Open `http://localhost:3000`.
 
 ## Notes
 
-- Uses React 17 and Create React App
-- Loads resource images from Syncfusion demo CDN
-- Filter button limits resources starting with `M`
-- Clear Filter removes active filtering
-
-## Available Scripts
-
-- `npm start`
-- `npm run build`
-- `npm test`
-- `npm run eject`
+- The sample renders a `GanttComponent` configured with `taskFields` mapping.
+- Column customization is implemented using `template` and `headerTemplate`.
+- Toolbar click handlers apply and clear filters dynamically.
+- Resource images are loaded from a public Syncfusion demo CDN for display purposes.
