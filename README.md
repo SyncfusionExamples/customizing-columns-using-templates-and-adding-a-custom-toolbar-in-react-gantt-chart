@@ -1,6 +1,6 @@
 # React Gantt Chart with Custom Column Templates and Toolbar
 
-A React sample repository demonstrating the Syncfusion React Gantt Chart component with custom column templates, resource rendering, and toolbar-based interactions.
+A React sample repository demonstrating the [React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart) with custom column templates, resource rendering, and toolbar-based interactions.
 
 ## Repository description
 This repository provides a React example that showcases a Syncfusion Gantt Chart configured with custom resource column templates, header templates, and toolbar actions for controlling filtering and task presentation.
@@ -45,3 +45,11 @@ Open `http://localhost:3000`.
 - Column customization is implemented using `template` and `headerTemplate`.
 - Toolbar click handlers apply and clear filters dynamically.
 - Resource images are loaded from a public Syncfusion demo CDN for display purposes.
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/column-template)
